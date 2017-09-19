@@ -3,11 +3,14 @@
 *Kate Cruz, September 19, 2017
 *Stata Version 15/IC
 *----------------------------
+//i like the preamble; good dscrpive
   
 * Problem Set 1- Data Formats and Conversion 
 //I chose to use data from the EPAs 2016 NJ Health Ratings by County.
 //This data set is robust and includes several variables of interest to my study
 //In particular- race, food environment, access to environment, income inequality
+
+//looking forward could be more specific--eg hypotheses, maybe other datasets you wanna use
 
 *----------------------------
 
@@ -29,6 +32,8 @@ sum //
 describe //tells me what each label means 
 
 browse //gives me a helpful view of the data to compare 
+
+//some commands could use: histogram, tabulate, etc 
 
 save "data1.dta", replace //saved as Stata file 
 
